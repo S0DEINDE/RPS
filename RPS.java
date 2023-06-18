@@ -50,6 +50,12 @@ public class RPS {
         return randomizer[computer];
     }
     public static void main(String[] args){
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~ROCK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~PAPER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~SCISSORS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+
         Scanner rps = new Scanner(System.in);
         System.out.println("WHat is your name?");
         String namer = rps.nextLine();
@@ -62,5 +68,7 @@ public class RPS {
         System.out.println(conv_ascii(user) + " VS "+ conv_ascii(computadora));
         winner(user,computadora, namer);
         System.out.println(namer + " thanks for playing!");
+
+        System.out.println("~~~~~~~~~~~~THANKS FOR USING MY PROGRAM!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
 }
