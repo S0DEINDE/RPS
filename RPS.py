@@ -35,7 +35,6 @@ def winner(x, y, namer):
         print("Computer Wins")
     elif x == 'S' and y == 'P':
         print(namer + " Wins")
-    return
 
 
 def main():
@@ -53,6 +52,8 @@ def main():
     print(conv_ascii(user), " VS ", conv_ascii(computer))
     winner(user, computer, namer)
     print("Thanks for playing")
+
+    print("~~~~~~~~~~~~~~~~~~~~~THANKS FOR USING MY PROGRAM!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
 main()
